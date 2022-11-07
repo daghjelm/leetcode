@@ -9,6 +9,7 @@ class Solution:
 
     start = ListNode()
     node = start
+    y, y, y
 
     while l1 and l2:
       val = None
@@ -19,7 +20,6 @@ class Solution:
       else:
         node.next = l2
         l2 = l2.next
-        
 
       node = node.next
 

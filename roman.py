@@ -7,7 +7,7 @@
 #D             500
 #M             1000
 class Solution:
-  
+
   def romanToInt(self, s: str) -> int:
     res = 0
 
@@ -33,12 +33,13 @@ class Solution:
 
     return res
 
+class Test():
+    def __init__(self, something):
+        self.something = something
+
+    def get_something():
+
 sol = Solution()
 print(sol.romanToInt("XXVI"))
 print(sol.romanToInt("IV"))
 print(sol.romanToInt("VX"))
-
-    
-      
-
-    
